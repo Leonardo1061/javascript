@@ -1,7 +1,13 @@
-for (let num=2; num<=1000;num++){
-    for (let num2=1;num2<=999;num2++){
-        if (num%num2===0){
-            console.log("el numero es primo: "+num)
+for (let x=2;x<=1000;x++){
+    let esprimo = true;
+    for (let y=2;x>y;y++){
+        if(x%y===0){
+            esprimo = false;
+            break;
         }
+       
     }
+    if(esprimo===true){
+            console.log(x)
     }
+}
