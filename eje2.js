@@ -1,3 +1,3 @@
-for (let num=1;num<30;num++){
-console.log (4**num);
+for (let n=1;n<30;n++){
+    console.log(4**n)
 }
